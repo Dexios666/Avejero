@@ -1,0 +1,74 @@
+body{
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+    max-width: 100%;
+    font-size: 10px;
+    cursor: pointer;
+}
+h1{
+    color: white;
+    font-size: 90px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+}
+.image{
+    width: 100%;
+    height: auto;
+}
+tr{
+    text-align: center;
+}
+.box{
+    color: white;
+    border-collapse: collapse;
+	margin: 0 auto;
+}
+.box:hover{
+    color: yellow;
+    transition: .7s;
+}
+
+.head{
+    font-size: 30px;
+    font: bold;
+}
+span{
+    border: 4px solid white;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 10px;
+}
+span:hover{
+    border: 4px solid yellow;
+    color: yellow;
+    transition: .7s;
+}
+.special{
+    color: 	#E52B50;
+}
+.holidays{
+    font-size: 70px;
+    padding-top: 18px;
+    color: yellow;
+}
+.hol{
+    font-size: 25px;
+    color: white;
+}
+.table{
+    border: 5px solid rgb(79, 79, 79);
+    color: white;
+    font-size: 18px;
+}
+.push{
+    transform: translateX(240px);
+}
+.end-text{
+    font-size: 20px;
+    color: white;
+}
